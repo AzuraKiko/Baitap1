@@ -1,0 +1,41 @@
+/* Navbar */
+* {
+list-style: none;
+}
+.nav {
+    width: 820px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between ;
+    font-family: Mukta;
+
+}
+
+.nav-list {
+    padding-left: 42px;
+    margin: auto 20px;
+}
+
+.nav-list #Logo {
+
+
+}
+
+.nav-item {
+
+}
+
+.Left-side {
+    width: 375px;
+    height: 461px;
+}
+
+.Right-side {
+    width: 405px;
+    height: 332px;
+}
+
+.Review {
+    width: 405px;
+    height: 95px;
+}
