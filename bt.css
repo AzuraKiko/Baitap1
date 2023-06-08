@@ -1,30 +1,76 @@
-/* Navbar */
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 * {
 list-style: none;
+text-decoration: none;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
-.nav {
+.header {
+    display: flex;
+    margin-left: 39px;
+    margin-top: 42px;
+    font-family: Mukta;
     width: 820px;
     height: 40px;
-    display: flex;
-    justify-content: space-between ;
-    font-family: Mukta;
-
+    position: relative;
 }
-
+.logo {
+    font-weight: bold;
+    color: #1565C0;
+    font-size: 24px;
+}
 .nav-list {
-    padding-left: 42px;
-    margin: auto 20px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    margin-left: 98px;
+    gap: 27px;
 }
 
-.nav-list #Logo {
-
-
+.nav-item a {
+    color: #474747;
 }
 
-.nav-item {
-
+.nav-item a:hover {
+    color: blue;
 }
 
+.nav-item a:focus {
+    color: blue;
+}
+
+.drop-down1 {
+    position: relative;
+}
+
+.drop-down1::after {
+    content:"";
+    background: url(./down-arrow\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 12px;
+    left: 45px;
+    
+}
+.search-box input {
+    width: 183px;
+    height: 25px;
+    border-radius: 10px;
+    left: 546px ;
+    position: absolute;
+    border: rgba(0, 0, 0, 0.2) solid 1px;
+    font-family: Mukta;
+    font-size: 14px ;
+    color: #474747 ;
+}
+.search-box input:focus {
+    border: blue 1px solid;
+}
 .Left-side {
     width: 375px;
     height: 461px;
